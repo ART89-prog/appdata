@@ -6,7 +6,7 @@
     }    */
 
     header {
-        padding: 11px 0;
+        padding: 11px 0 187px;
     }
     header .mob_menu_btn {
         display: flex;
@@ -91,6 +91,16 @@
         overflow-y: hidden;
     }
 
+
+    .footer_top {
+        flex-wrap: wrap;
+    }
+    .footer_menu {
+        order: 1;
+        width: 100%;
+        justify-content: space-between;
+        margin-top: 30px;
+    }
 
     
  

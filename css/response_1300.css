@@ -3,6 +3,10 @@
     :root {
         --font_size_title: 36px;
     }   
+
+    .footer_logo {
+        margin-left: 0;
+    }
  
 
 
