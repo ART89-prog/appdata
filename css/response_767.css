@@ -13,11 +13,14 @@
         padding: 20px 18px;
         display: flex;
         flex-direction: column;
-        margin-bottom: 20px;
+        margin-bottom: 18px;
     }
     .benifits_item-icon {
-        width: 56px;
-        height: 56px;
+        width: 47px;
+        height: 44px;
+    }
+    .benifits_item-icon img {
+        width: 100%;
     }
     .benifits_item-title {
         margin-top: 22px;
@@ -30,11 +33,11 @@
     }
     .benifits_item-text {
         font-family: var(--font_family);
-        font-size: 18px;
+        font-size: 14px;
         font-weight: 400;
-        line-height: 21.6px;
+        line-height: 1.2;
         color: #E3E3E3;
-        margin-bottom: 39px;
+        margin-bottom: 19px;
     }
     .benifits_item-btn {
         width: 100%;
@@ -47,26 +50,26 @@
     }
     .benifits_item.lc .benifits_item-title {
         font-family: var(--font_family);
-        font-size: 44px;
+        font-size: 32px;
         font-weight: 800;
         line-height: 1.2;
         text-align: center; 
         text-transform: uppercase; 
-        margin-bottom: 36px;  
+        margin-bottom: 13px;  
     }
     .benifits_item.lc .benifits_item-text {
         font-family: var(--font_family);
-        font-size: 18px;
+        font-size: 14px;
         font-weight: 400;
-        line-height: 1,2;
+        line-height: 1.2;
         text-align: center; 
         text-transform: uppercase; 
-        margin-bottom: 36px;  
+        margin-bottom: 19px;  
     }
     .benifits .swiper-horizontal > .swiper-pagination-bullets, 
     .benifits .swiper-pagination-bullets.swiper-pagination-horizontal, 
     .benifits .swiper-pagination-custom, .swiper-pagination-fraction {
-        bottom: 10px;
+        bottom: -10px;
     }
     .header_img1 {
         right: -195px;
@@ -105,6 +108,133 @@
     .menu_open header .close_btn {
         top: 18px;
     }
+    .explanation_img {
+        margin-top: -35px;
+        width: 430px;
+        height: 363px;
+        margin-left: auto;
+        margin-right: auto;
+        right: 0;
+    }
+    .about_title,
+    .explanation_title,
+    .advantages_title,
+    .projects_title,
+    .stage_title,
+    .callback_title {
+        font-size: 32px;
+        margin-bottom: 15px;
+        text-align: start;
+    }
+    .benifits_item-title {
+        margin-top: 13px;
+        font-size: 20px;
+        margin-bottom: 13px;
+    }    
+    .projects_item-title {
+        font-size: 20px;
+    }
+    .projects_item-text,
+    .projects_item-list {
+        font-size: 14px;
+    }
+    .projects_item-list {
+        margin-top: 12px;
+    }
+    .projects_title {
+        margin-bottom: 20px;
+    }
+    .stage_items {
+        gap: 29px;
+    }
+    .stage_items > * {
+        width: 100%;
+        padding-left: 62px;
+        padding-top: 0;
+    }
+    .stage_item::before {
+        width: 42px;
+        height: 42px;
+        font-size: 20px;
+    }
+    .stage_title {
+        margin-bottom: 44px;
+    }
+    .stage_item-title {
+        font-size: 20px;
+        margin-bottom: 12px;
+    }
+    .stage_item-text {
+        font-size: 14px;
+    }
+    .callback_title {
+        margin-bottom: 35px;
+    }
+    .callback_text {
+        font-size: 14px;
+    }
+    .callback_img {
+        position: relative;
+        width: 430px;
+        height: 267px;
+        margin-top: -140px;
+    }
+    .footer_top {
+        flex-direction: column;
+    }
+    .footer_menu {
+        order: 0;
+        margin-top: 26px;
+        flex-direction: column;
+        gap: 16px;
+    }
+    .footer_contact {
+        margin-top: 16px;
+        flex-direction: column;
+        gap: 16px;
+    }
+    .footer_top {
+        margin-bottom: 16px;
+    }
+    .footer_bottom {
+        padding-top: 0px;
+        border-top: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .footer_copy {
+        margin-right: 0px;
+        text-align: center;
+        margin-bottom: 16px;
+    }
+    .footer_politic {
+        text-align: center;
+    }
+    footer {
+        padding: 40px 0 43px;
+    }
+    .footer_logo {
+        font-size: 18px;
+    }
+    .footer_logo img {
+        width: 35px;
+        height: 38px;
+    }
+    .footer_logo {
+        gap: 6px;
+    }
+    .header_img1 {
+        top: -100px;
+        right: -210px;
+    }
+    .projects {
+        padding-top: 60px;
+    }
+
+
+
+
 
 
 

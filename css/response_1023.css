@@ -103,7 +103,8 @@
         order: 1;
         width: 100%;
         justify-content: space-between;
-        margin-top: 30px;
+        margin: 30px auto 0;
+        width: 75%;
     }
     .header_wrap {
         margin-bottom: 49px;
@@ -113,7 +114,7 @@
         margin-bottom: 20px;
     }
     .header_subtitle {
-        font-size: 36px;
+        font-size: 28px;
         margin-bottom: 20px;
     }
     .header_text {
@@ -204,6 +205,9 @@
     }
     .callback_text br {
         display: none;
+    }
+    .explanation_text {
+        font-size: 22px;
     }
     
  
