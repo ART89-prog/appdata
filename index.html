@@ -31,6 +31,7 @@
 		<link rel="stylesheet" href="css/swiper-bundle.min.css">		
 		<link rel="stylesheet" href="css/swiper.css">
 		<link rel="stylesheet" href="css/fancybox.css">
+		<link rel="stylesheet" href="css/nice-select.css">
 		<link rel="stylesheet" href="css/styles.css">
 
 		<link rel="stylesheet" href="css/response_1470.css" media="print, (max-width: 1470px)">
@@ -53,7 +54,7 @@
 							<button class="close_btn">
 								<img src="images/close.svg" alt="">
 							</button>	
-														
+
 							<a href="#" class="header_logo">
 								<img src="images/logo.svg" alt="">
 								<span>AppData</span>
@@ -74,7 +75,7 @@
 								</div>												
 							</nav>		
 						
-							<a href="#" class="header_contact btn">
+							<a href="#" class="header_contact btn modal_link" data-content="#modal">
 								<span>связаться</span>
 							</a>
 														
@@ -403,28 +404,51 @@
 
 
 		<section class="modal" id="modal" style="display: none;">
-			<div class="modal_title">Запрос расчета</div>
-			<div class="modal_text">После заполнения формы, менеджер свяжется с Вами для уточнения деталей!</div>
+			<div class="modal_title">Оставить заявку</div>
+			<div class="modal_text">Пожалуйста, заполните форму, чтобы задать интересующий вас вопрос.</div>
 			<form>
 				<div class="line">
 					<div class="field">
-						<input type="text" placeholder="Ваше имя">
+						<input type="text" placeholder="Имя">
+					</div>
+					<div class="field">
+						<input type="email" placeholder="E-mail">
+					</div>
+					<div class="field">
+						<input type="text" placeholder="Компания">
 					</div>
 				</div>		
 				<div class="line">
 					<div class="field">
-						<input type="tel" placeholder="+375 (__) - ___ - __ - __">
+						<input type="tel" placeholder="Телефон">
+					</div>
+					<div class="field">
+						<select name="" id="">
+							<option value=""></option>
+							<option value=""></option>
+							<option value=""></option>
+						</select>
+					</div>
+					<div class="field">
+						<input type="text" placeholder="Должность">
 					</div>
 				</div>
-				<button type="submit" data-content="#modal2" class="modal_link">Запросить расчет</button>						
+				<div class="line">
+					<div class="field">
+						<textarea placeholder="Комментарий"></textarea>
+					</div>
+				</div>
+				<div class="line">
+					<div class="form_text">Нажимая на кнопку вы соглашаетесь с нашим положениям о<br>конфиденциальности и политикой использования cookie-файлов</div>
+					<button type="submit" class="btn">
+						<span>отправить</span>
+					</button>
+				</div>
 			</form>
 		</section>
 
 
-		<section class="modal2" id="modal2" style="display: none;">
-			<div class="modal_title">Благодарим за Ваше обращение!</div>
-			<div class="modal_text">Менеджер свяжется с вами в ближайшее время!</div>
-		</section>
+		
 
 		
 
@@ -432,6 +456,7 @@
 		<script src="js/jquery-3.5.0.min.js"></script>
 		<script src="js/swiper-bundle.min.js"></script>
 		<script src="js/fancybox.js"></script>
+		<script src="js/nice-select.js"></script>
 		<script src="js/imask.js"></script>
 		<script src="js/functions.js"></script>
 		<script src="js/scripts.js"></script>

@@ -914,3 +914,131 @@ footer {
 }
 
 
+
+.modal {
+    background: #242629;
+    padding: 100px 58px;
+    max-width: 1316px;
+    width: 100%;
+}
+.modal_title {
+    margin-bottom: 20px;
+    font-family: var(--font_family);
+    font-size: 68px;
+    font-weight: 800;
+    line-height: 1.2px;
+    color: #fff;
+}
+.modal_text {
+    font-family: var(--font_family);
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 24px;
+    margin-bottom: 49px;
+    color: #fff;
+    margin-top: 55px;
+}
+.modal .line {
+    display: flex;
+    gap: 30px;
+}
+.modal .line .field {
+    width: calc(100%/3 - 20px);
+}
+.modal .line + .line {
+    margin-top: 30px;
+}
+.modal input {
+    width: 100%;
+    padding: 18px 20px;
+    gap: 11px;
+    height: 60px;
+    border: 1px solid #8A8A8A;
+    border-radius: 10px;
+    background: transparent;
+    font-family: var(--font_family);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.2;
+}
+.modal input::-webkit-input-placeholder {
+    font-family: var(--font_family);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.2;
+}
+.modal input::-moz-placeholder {
+    font-family: var(--font_family);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.2;
+}
+.modal input:-moz-placeholder {
+    font-family: var(--font_family);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.2;
+}
+.modal input:-ms-input-placeholder {
+    font-family: var(--font_family);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.2;
+}
+.modal textarea {
+    width: 100%;
+    padding: 18px 20px;
+    gap: 11px;
+    height: 120px;
+    border: 1px solid #8A8A8A;
+    border-radius: 10px;
+    background: transparent;
+    font-family: var(--font_family);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.2;
+    resize: none;
+}
+.modal textarea::-webkit-input-placeholder {
+    font-family: var(--font_family);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.2;
+}
+.modal textarea::-moz-placeholder {
+    font-family: var(--font_family);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.2;
+}
+.modal textarea:-moz-placeholder {
+    font-family: var(--font_family);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.2;
+}
+.modal textarea:-ms-input-placeholder {
+    font-family: var(--font_family);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.2;
+}
+.modal .line:nth-child(3) .field {
+    width: 100%;
+}
+.modal .line:nth-child(4) {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    width: 66.66666%;
+    margin-left: auto;
+}
+.form_text {
+    font-family: var(--font_family);
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.2;
+    color: #e3e3e3;
+    width: calc(100% - 270px);
+}
+

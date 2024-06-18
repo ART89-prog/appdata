@@ -28,6 +28,9 @@ $(() => {
   })
 
 
+  	// Кастомный select
+	$('select').niceSelect()
+
 
   let header = $('header');
   $(window).scroll(function () {
