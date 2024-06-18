@@ -156,6 +156,51 @@ $(() => {
   })
 
 
+  const benifitsSliders = [],
+  benifits = document.querySelectorAll('.benifits .swiper')
+
+  benifits.forEach(function (el, i) {
+    el.classList.add('benifits_s' + i)
+
+    let options = {
+      loop: true,
+      speed: 500,
+      watchSlidesProgress: true,
+      slideActiveClass: 'active',
+      slideVisibleClass: 'visible',
+      breakpoints: {
+        0: {
+          spaceBetween: 0,
+          slidesPerView: 1
+        },
+        670: {
+          spaceBetween: 15,
+          slidesPerView: 2
+        },
+        768: {
+          spaceBetween: 15,
+          slidesPerView: 2
+        },
+        970: {
+          spaceBetween: 30,
+          slidesPerView: 3
+        },
+        1300: {
+          spaceBetween: 30,
+          slidesPerView: 3
+        }
+      },
+      pagination: {
+        el: '.benifits .swiper-pagination',
+        type: 'bullets',
+        clickable: true,
+      }
+    }
+
+    benifitsSliders.push(new Swiper('.benifits_s' + i, options))
+  })
+
+
 
   // Табы
   var locationHash = window.location.hash

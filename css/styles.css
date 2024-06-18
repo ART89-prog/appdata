@@ -234,7 +234,7 @@ img {
 
 .overlay {
     position: fixed;
-    z-index: 1;
+    z-index: 0;
     top: 75px;
     left: 0;
 
@@ -476,7 +476,7 @@ header .menu .item.active>a {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    z-index: 1;
+    z-index: 0;
     position: relative;
 }
 .header_title {
@@ -862,6 +862,8 @@ p.mb0 {
     column-gap: 101px;
     row-gap: 54px;
     counter-reset: section;
+    z-index: 5;
+    position: relative;
 }
 .stage_items > * {
     width: calc(100%/3 - 68px);
@@ -1181,3 +1183,8 @@ footer {
     width: calc(100% - 270px);
 }
 
+
+
+.benifits {
+    display: none;
+}

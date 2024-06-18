@@ -1,8 +1,110 @@
 @media print, (max-width: 767px) {
 
-    :root {
-        --font_size_title: 30px;
-    }   
+
+    .benifits {
+        display: block;
+    }
+    .advantages {
+        display: none;
+    }
+    .benifits_item {
+        background: #1C1D22;
+        border-radius: 20px;
+        padding: 20px 18px;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+    .benifits_item-icon {
+        width: 56px;
+        height: 56px;
+    }
+    .benifits_item-title {
+        margin-top: 22px;
+        font-family: var(--font_family);
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 1.2;
+        color: #fff;
+        margin-bottom: 22px;
+    }
+    .benifits_item-text {
+        font-family: var(--font_family);
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 21.6px;
+        color: #E3E3E3;
+        margin-bottom: 39px;
+    }
+    .benifits_item-btn {
+        width: 100%;
+        margin-top: auto;
+    }
+    .benifits_item.lc {
+        background: url(../images/advantages_item_bg.png);
+        align-items: center;
+        background-size: cover;
+    }
+    .benifits_item.lc .benifits_item-title {
+        font-family: var(--font_family);
+        font-size: 44px;
+        font-weight: 800;
+        line-height: 1.2;
+        text-align: center; 
+        text-transform: uppercase; 
+        margin-bottom: 36px;  
+    }
+    .benifits_item.lc .benifits_item-text {
+        font-family: var(--font_family);
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 1,2;
+        text-align: center; 
+        text-transform: uppercase; 
+        margin-bottom: 36px;  
+    }
+    .benifits .swiper-horizontal > .swiper-pagination-bullets, 
+    .benifits .swiper-pagination-bullets.swiper-pagination-horizontal, 
+    .benifits .swiper-pagination-custom, .swiper-pagination-fraction {
+        bottom: 10px;
+    }
+    .header_img1 {
+        right: -195px;
+        width: 300px;
+        height: 417px;
+    }
+    .header_title {
+        font-size: 34px;
+        margin-bottom: 15px;
+    }
+    .header_img2 {
+        display: none;
+    }
+    .header_logo {
+        font-size: 18px;
+    }
+    .header_logo img {
+        width: 35px;
+        height: 38px;
+    }
+    .header_logo {
+        gap: 6px;
+    }
+    .header_contact {
+        width: 140px;
+        height: 42px;
+        font-size: 14px;
+    }
+    .header_contact span:before {
+        width: 7px;
+        height: 7px;
+    }
+    .header_contact span {
+        padding-left: 13px;
+    }
+    .menu_open header .close_btn {
+        top: 18px;
+    }
 
 
 
