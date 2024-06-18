@@ -231,8 +231,22 @@
     .projects {
         padding-top: 60px;
     }
-
-
+    .modal .line {
+        flex-direction: column;
+    }
+    .modal .line .field {
+        width: 100%;
+    }
+    .modal .line:nth-child(4) {
+        width: 100%;
+        flex-direction: column-reverse;
+    }
+    .form_btn {
+        width: 100%;
+    }
+    .form_text br {
+        display: none;
+    }
 
 
 
