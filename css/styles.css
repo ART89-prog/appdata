@@ -327,7 +327,8 @@ header .close_btn {
 
 header .menu {
     display: flex;
-    gap: 61px;
+    gap: 63px;
+    margin-left: auto;
 }
 
 header .menu .item {
@@ -335,7 +336,7 @@ header .menu .item {
 }
 
 header .menu .item>a {
-    font-family: Mulish;
+    font-family: var(--font_family);
     font-size: 18px;
     font-weight: 300;
     line-height: 1.2;
@@ -368,7 +369,7 @@ header .menu .item.active>a {
     display: flex;
     align-items: center;
     gap: 12px;
-    font-family: Mulish;
+    font-family: var(--font_family);
     font-size: 24px;
     font-weight: 700;
     line-height: 1.2;
@@ -378,12 +379,14 @@ header .menu .item.active>a {
 .header_wrap {
     margin-bottom: 146px;
 }
-
+.header_contact {
+    margin-left: 62px;
+}
 .btn {
     height: 60px;
     border-radius: 52px;
     border: 1px solid #8A8A8A;
-    font-family: Mulish;
+    font-family: var(--font_family);
     font-size: 20px;
     font-weight: 400;
     line-height: 1.2;
@@ -417,7 +420,7 @@ header .menu .item.active>a {
     justify-content: center;
 }
 .header_title {
-    font-family: 'Mulish';
+    font-family: var(--font_family);
     font-weight: 800;
     font-size: 118px;
     line-height: 120%;
@@ -431,7 +434,7 @@ header .menu .item.active>a {
     margin-bottom: 40px;
 }
 .header_subtitle {
-    font-family: Mulish;
+    font-family: var(--font_family);
     font-size: 78px;
     font-weight: 500;
     line-height: 1.2;
@@ -440,7 +443,7 @@ header .menu .item.active>a {
     text-transform: uppercase;
 }
 .header_text {
-    font-family: Mulish;
+    font-family: var(--font_family);
     font-size: 28px;
     font-weight: 300;
     line-height: 1.2;
@@ -472,7 +475,7 @@ header .menu .item.active>a {
     object-fit: cover;
 }
 .about_title {
-    font-family: Mulish;
+    font-family: var(--font_family);
     font-size: 78px;
     font-weight: 800;
     line-height: 1.2;
@@ -480,7 +483,7 @@ header .menu .item.active>a {
     margin-bottom: 34px;
 }
 .about_text p {
-    font-family: Mulish;
+    font-family: var(--font_family);
     font-size: 20px;
     font-weight: 300;
     line-height: 1.2;
@@ -492,7 +495,7 @@ header .menu .item.active>a {
     margin-bottom: 41px;
 }
 .about_text ul li {
-    font-family: Mulish;
+    font-family: var(--font_family);
     font-size: 20px;
     font-weight: 300;
     line-height: 1.2;
@@ -514,7 +517,7 @@ p.mb0 {
     max-width: 636px;
 }
 .explanation_title {
-    font-family: 'Mulish';
+    font-family: var(--font_family);
     font-weight: 800;
     font-size: 118px;
     line-height: 110%;
@@ -527,7 +530,7 @@ p.mb0 {
     margin-bottom: 46px;
 }
 .explanation_text {
-    font-family: Mulish;
+    font-family: var(--font_family);
     font-size: 32px;
     font-weight: 400;
     line-height: 1.2;
@@ -541,12 +544,8 @@ p.mb0 {
 
 
 
-.advantages {
-}
-.cont {
-}
 .advantages_title {
-    font-family: Mulish;
+    font-family: var(--font_family);
     font-size: 68px;
     font-weight: 800;
     line-height: 1.2;
@@ -574,7 +573,7 @@ p.mb0 {
 }
 .advantages_item-title {
     margin-top: 26px;
-    font-family: Mulish;
+    font-family: var(--font_family);
     font-size: 24px;
     font-weight: 400;
     line-height: 1.2;
@@ -582,7 +581,7 @@ p.mb0 {
     margin-bottom: 22px;
 }
 .advantages_item-text {
-    font-family: Mulish;
+    font-family: var(--font_family);
     font-size: 18px;
     font-weight: 400;
     line-height: 21.6px;
@@ -598,7 +597,7 @@ p.mb0 {
     align-items: center;
 }
 .advantages_item:last-child .advantages_item-title {
-    font-family: Mulish;
+    font-family: var(--font_family);
     font-size: 44px;
     font-weight: 800;
     line-height: 1.2;
@@ -607,7 +606,7 @@ p.mb0 {
     margin-bottom: 36px;  
 }
 .advantages_item:last-child .advantages_item-text {
-    font-family: Mulish;
+    font-family: var(--font_family);
     font-size: 18px;
     font-weight: 400;
     line-height: 1,2;
@@ -623,7 +622,7 @@ p.mb0 {
 .projects_title {
     text-align: center;
     margin-bottom: 50px;
-    font-family: 'Mulish';
+    font-family: var(--font_family);
     font-style: normal;
     font-weight: 800;
     font-size: 118px;
@@ -672,7 +671,7 @@ p.mb0 {
     border-radius: 0 0 10px 10px;
 }
 .projects_item-title {
-    font-family: Mulish;
+    font-family: var(--font_family);
     font-size: 28px;
     font-weight: 400;
     line-height: 1.2;
@@ -680,14 +679,14 @@ p.mb0 {
     color: #000;
 }
 .projects_item-text {
-    font-family: Mulish;
+    font-family: var(--font_family);
     font-size: 18px;
     font-weight: 400;
     line-height: 1.2;
     color: #423E3E;
 }
 .projects_item-list {
-    font-family: Mulish;
+    font-family: var(--font_family);
     font-size: 18px;
     font-weight: 400;
     line-height: 1.2;
@@ -726,7 +725,7 @@ p.mb0 {
 
 
 .stage_title {
-    font-family: Mulish;
+    font-family: var(--font_family);
     font-size: 68px;
     font-weight: 800;
     line-height: 1.2;
@@ -746,7 +745,7 @@ p.mb0 {
     position: relative;
 }
 .stage_item-title {
-    font-family: Mulish;
+    font-family: var(--font_family);
     font-size: 28px;
     font-weight: 400;
     line-height: 1;
@@ -754,7 +753,7 @@ p.mb0 {
     color: #fff;
 }
 .stage_item-text {
-    font-family: Mulish;
+    font-family: var(--font_family);
     font-size: 18px;
     font-weight: 300;
     line-height: 1.2;
@@ -766,7 +765,7 @@ p.mb0 {
     width: 66px;
     height: 66px;
     background: linear-gradient(123.39deg, #BFEEFF 4.82%, #85E2F9 44.59%, #54E1F7 74.85%, #505CD8 91.27%);
-    font-family: Mulish;
+    font-family: var(--font_family);
     font-size: 32px;
     font-weight: 800;
     line-height: 1.2;
@@ -792,7 +791,7 @@ p.mb0 {
     max-width: 482px;
 }
 .callback_title {
-    font-family: Mulish;
+    font-family: var(--font_family);
     font-size: 68px;
     font-weight: 800;
     line-height: 1.2;
@@ -800,7 +799,7 @@ p.mb0 {
     margin-bottom: 35px;
 }
 .callback_text {
-    font-family: Mulish;
+    font-family: var(--font_family);
     font-size: 18px;
     font-weight: 400;
     line-height: 1.2;
@@ -826,7 +825,7 @@ footer {
     display: flex;
     align-items: center;
     gap: 12px;
-    font-family: Mulish;
+    font-family: var(--font_family);
     font-size: 24px;
     font-weight: 700;
     line-height: 1.2;
@@ -840,7 +839,7 @@ footer {
     gap: 61px;
 }
 .footer_menu .item a {
-    font-family: Mulish;
+    font-family: var(--font_family);
     font-size: 18px;
     font-weight: 300;
     line-height: 1.2;
@@ -848,7 +847,7 @@ footer {
     color: #E3E3E3;
 }
 .footer_menu .item>a {
-    font-family: Mulish;
+    font-family: var(--font_family);
     font-size: 18px;
     font-weight: 300;
     line-height: 1.2;
@@ -874,7 +873,7 @@ footer {
     gap: 50px;
 }
 .footer_phone {
-    font-family: Mulish;
+    font-family: var(--font_family);
     font-size: 18px;
     font-weight: 300;
     line-height: 1.2;
@@ -893,13 +892,13 @@ footer {
 }
 .footer_copy {
     margin-right: 20px;
-    font-family: Mulish;
+    font-family: var(--font_family);
     font-size: 18px;
     font-weight: 300;
     line-height: 1.2;
 }
 .footer_politic {
-    font-family: Mulish;
+    font-family: var(--font_family);
     font-size: 18px;
     font-weight: 300;
     line-height: 1.2;
