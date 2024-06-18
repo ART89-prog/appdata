@@ -235,7 +235,7 @@ img {
 .overlay {
     position: fixed;
     z-index: 1;
-    top: 0;
+    top: 75px;
     left: 0;
 
     display: none;
@@ -535,6 +535,7 @@ p.mb0 {
     font-size: 32px;
     font-weight: 400;
     line-height: 1.2;
+    margin-left: 16px;
 }
 .explanation_img {
     position: absolute;
@@ -737,7 +738,7 @@ p.mb0 {
     display: flex;
     flex-wrap: wrap;
     column-gap: 101px;
-    row-gap: 72px;
+    row-gap: 54px;
     counter-reset: section;
 }
 .stage_items > * {
@@ -798,6 +799,7 @@ p.mb0 {
     line-height: 1.2;
     color: #fff;
     margin-bottom: 35px;
+    text-transform: uppercase;
 }
 .callback_text {
     font-family: var(--font_family);
