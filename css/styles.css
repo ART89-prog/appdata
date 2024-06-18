@@ -111,7 +111,7 @@ input[type=number] {
     --text_color: #fff;
     --font_size: 15px;
     --font_size_title: 40px;
-    --font_family: "Mulish", sans-serif;
+    --font_family: "Mulish";
 }
 
 
@@ -457,17 +457,18 @@ header .menu .item.active>a {
 
 
 .about {
-    margin-bottom: 299px;
+   padding: 179px 0 299px;
 }
 .about_wrap {
     display: flex;
     align-items: center;
-    gap: 41px;
+    gap: 32px;
 }
 .about_img {
     width: 658px;
     height: 658px;  
     flex-shrink: 0;  
+    margin-left: -90px;
 }
 .about_img img {
     width: 100%;
