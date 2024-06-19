@@ -1079,17 +1079,17 @@ footer {
     color: #fff;
     margin-top: 55px;
 }
-.modal .line {
+.line {
     display: flex;
     gap: 30px;
 }
-.modal .line .field {
+.line .field {
     width: calc(100%/3 - 20px);
 }
-.modal .line + .line {
+.line + .line {
     margin-top: 30px;
 }
-.modal input {
+input {
     width: 100%;
     padding: 18px 20px;
     gap: 11px;
@@ -1103,35 +1103,35 @@ footer {
     line-height: 1.2;
     color: #fff;
 }
-.modal input::-webkit-input-placeholder {
+input::-webkit-input-placeholder {
     font-family: var(--font_family);
     font-size: 20px;
     font-weight: 400;
     line-height: 1.2;
     color: #fff;
 }
-.modal input::-moz-placeholder {
+input::-moz-placeholder {
     font-family: var(--font_family);
     font-size: 20px;
     font-weight: 400;
     line-height: 1.2;
     color: #fff;
 }
-.modal input:-moz-placeholder {
+input:-moz-placeholder {
     font-family: var(--font_family);
     font-size: 20px;
     font-weight: 400;
     line-height: 1.2;
     color: #fff;
 }
-.modal input:-ms-input-placeholder {
+input:-ms-input-placeholder {
     font-family: var(--font_family);
     font-size: 20px;
     font-weight: 400;
     line-height: 1.2;
     color: #fff;
 }
-.modal textarea {
+textarea {
     width: 100%;
     padding: 18px 20px;
     gap: 11px;
@@ -1146,38 +1146,38 @@ footer {
     resize: none;
     color: #fff;
 }
-.modal textarea::-webkit-input-placeholder {
+textarea::-webkit-input-placeholder {
     font-family: var(--font_family);
     font-size: 20px;
     font-weight: 400;
     line-height: 1.2;
     color: #fff;
 }
-.modal textarea::-moz-placeholder {
+textarea::-moz-placeholder {
     font-family: var(--font_family);
     font-size: 20px;
     font-weight: 400;
     line-height: 1.2;
     color: #fff;
 }
-.modal textarea:-moz-placeholder {
+textarea:-moz-placeholder {
     font-family: var(--font_family);
     font-size: 20px;
     font-weight: 400;
     line-height: 1.2;
     color: #fff;
 }
-.modal textarea:-ms-input-placeholder {
+textarea:-ms-input-placeholder {
     font-family: var(--font_family);
     font-size: 20px;
     font-weight: 400;
     line-height: 1.2;
     color: #fff;
 }
-.modal .line:nth-child(3) .field {
+.line:nth-child(3) .field {
     width: 100%;
 }
-.modal .line:nth-child(4) {
+.line:nth-child(4) {
     display: flex;
     justify-content: end;
     align-items: center;
@@ -1490,3 +1490,71 @@ footer {
     width: 100%;
 }
 
+
+.contacts.block {
+    padding-bottom: 150px;
+}
+.map_wrap {
+    position: relative;
+    overflow: hidden;
+    width: 615px;
+    height: 440px;
+    margin-left: auto;
+    transform: translateZ(0);
+    flex-shrink: 0;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+#map {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.contacts_wrap {
+    display: flex;
+    background: #1C1D22;
+    border: 1px solid #484848;
+    border-radius: 20px;
+}
+.contacts_info {
+    padding: 50px;
+}
+.contacts_item {
+    font-family: Mulish;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 24px;
+    text-align: left;
+    color: #fff;
+    display: flex;
+    gap: 18px;
+}
+.contacts_item + .contacts_item {
+    margin-top: 10px;
+}
+.contacts_item span {
+    width: 90px;
+    color: #E3E3E3;
+    display: block;
+}
+.contacts_item a {
+    font-family: Mulish;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 24px;
+    text-decoration: none;   
+    color: #FFFFFF;
+    transition: all .4s;
+}
+.contacts_item a:hover {
+    color: #e3e3e3;
+}
+
+
+.callbaks {
+    padding: 100px 0;
+    background: #242629;
+}
