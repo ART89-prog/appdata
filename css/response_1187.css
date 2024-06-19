@@ -23,7 +23,8 @@
     .advantages_title,
     .projects_title,
     .stage_title,
-    .callback_title {
+    .callback_title,
+    .page .title {
         font-size: 60px;
         margin-bottom: 40px;
     }
