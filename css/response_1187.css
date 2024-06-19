@@ -74,6 +74,12 @@
     .stage {
         padding-bottom: 160px;
     }
+    .contacts_info {
+        padding: 20px;
+    } 
+    .map_wrap {
+        width: 545px;
+    }
 
 
 

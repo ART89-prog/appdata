@@ -211,46 +211,46 @@
     .modal {
         padding: 33px 20px 20px;
     }
-    .modal .line {
+    .line {
         gap: 16px;
     }
-    .modal .line .field {
+    .line .field {
         width: calc(100% / 3 - 11px);
     }
-    .modal input {
+    input {
         font-size: 16px;
     }
-    .modal input::-webkit-input-placeholder {
+    input::-webkit-input-placeholder {
         font-size: 16px;
     }
-    .modal input::-moz-placeholder {
+    input::-moz-placeholder {
         font-size: 16px;
     }
-    .modal input:-moz-placeholder {
+    input:-moz-placeholder {
         font-size: 16px;
     }
-    .modal input:-ms-input-placeholder {
+    input:-ms-input-placeholder {
         font-size: 16px;
     }
-    .modal textarea {
+    textarea {
         font-size: 16px;
     }
-    .modal textarea::-webkit-input-placeholder {
+    textarea::-webkit-input-placeholder {
         font-size: 16px;
     }
-    .modal textarea::-moz-placeholder {
+    textarea::-moz-placeholder {
         font-size: 16px;
     }
-    .modal textarea:-moz-placeholder {
+    textarea:-moz-placeholder {
         font-size: 16px;
     }
-    .modal textarea:-ms-input-placeholder {
+    textarea:-ms-input-placeholder {
         font-size: 16px;
     }
     .nice-select {
         font-size: 16px;
     }
-    .modal .line + .line {
+    .line + .line {
         margin-top: 16px;
     }
     .form_text {
@@ -282,6 +282,25 @@
     }
     .project_items > * {
         width: calc(100% / 2 - 15px);
+    }
+    .contacts_wrap {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .map_wrap {
+        position: relative;
+        overflow: hidden;
+        width: 100%;
+        height: 440px;
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 20px;
+        border-bottom-left-radius: 20px;
+    }
+    .contacts_info {
+        width: 100%;
+    }
+    .map_wrap {
+        height: 310px;
     }
 
  

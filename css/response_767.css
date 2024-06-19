@@ -232,13 +232,13 @@
     .projects {
         padding-top: 60px;
     }
-    .modal .line {
+    .line {
         flex-direction: column;
     }
-    .modal .line .field {
+    .line .field {
         width: 100%;
     }
-    .modal .line:nth-child(4) {
+    .line:nth-child(4) {
         width: 100%;
         flex-direction: column-reverse;
     }
@@ -297,6 +297,25 @@
     .project_item-btn {
         display: none;
     }
+
+    .contacts_item,
+    .contacts_item a,
+    .contacts_item span {
+        font-size: 14px;
+    }
+    .contacts_item span {
+        width: 50px;
+    }
+    .map_wrap {
+        height: 229px;
+    }
+    .callbaks {
+        padding: 70px 0;
+    }
+    .callbaks {
+        margin-top: 60px;
+    }
+
 
 
 

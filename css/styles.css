@@ -1493,6 +1493,18 @@ textarea:-ms-input-placeholder {
 
 .contacts.block {
     padding-bottom: 150px;
+    position: relative;
+}
+.contacts:before {
+    position: absolute;
+    width: 1148.84px;
+    height: 1137.61px;
+    left: -565px;
+    top: 284.47px;
+    background: linear-gradient(180deg, #164A6B 0%, #000000 100%);
+    filter: blur(150px);
+    transform: rotate(-26.1deg);
+    content: "";
 }
 .map_wrap {
     position: relative;
@@ -1515,6 +1527,7 @@ textarea:-ms-input-placeholder {
 
 .contacts_wrap {
     display: flex;
+    align-items: center;
     background: #1C1D22;
     border: 1px solid #484848;
     border-radius: 20px;
