@@ -27,6 +27,27 @@
         transform: translateX(-50%);
     }
 
+    .first-section_img {
+        width: 96px;
+        height: 238px;
+        top: -44px;
+        right: 0;
+    }
+    .first-section_img img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .safety_img {
+        left: -320px;
+    }
+    .safety_info {
+        margin-left: 360px;
+    }
+    .post_bg1 {
+        display: none;
+    }
+
 
 
 

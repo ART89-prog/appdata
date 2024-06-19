@@ -122,7 +122,8 @@
     .projects_title,
     .stage_title,
     .callback_title,
-    .page .title {
+    .page .title,
+    .safety_title {
         font-size: 32px;
         margin-bottom: 15px;
         text-align: start;
@@ -323,6 +324,51 @@
     .clients .swiper-slide img {
         width: 100%;
     }
+
+    .first-section_item-title {
+        font-size: 32px;
+    }
+    .first-section_item-text {
+        font-size: 14px;
+    }
+    .privileges_item-title {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    .privileges_item-text {
+        font-size: 14px;
+    }
+    .privileges_items > * {
+        width: 100%;
+    }
+    .privileges_items {
+        gap: 20px;
+    }
+    .safety_text {
+        font-size: 14px;
+    }
+    .privileges_item-icon {
+        margin-bottom: 10px;
+    }
+    .technology {
+        padding-bottom: 70px;
+    }
+    .text_block p {
+        font-size: 14px;
+    }
+    .post_box {
+        padding: 0px;
+    }
+    .post_images {
+        margin-top: 20px;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .post_images img {
+        width: 100%;
+        height: auto;
+    }
+ 
 
 
 
