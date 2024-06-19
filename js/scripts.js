@@ -202,6 +202,97 @@ $(() => {
 
 
 
+  const technologySliders = [],
+  technology = document.querySelectorAll('.technology .swiper')
+
+  technology.forEach(function (el, i) {
+    el.classList.add('technology_s' + i)
+
+    let options = {
+      loop: true,
+      speed: 500,
+      watchSlidesProgress: true,
+      slideActiveClass: 'active',
+      slideVisibleClass: 'visible',
+      breakpoints: {
+        0: {
+          spaceBetween: 15,
+          slidesPerView: 3
+        },
+        580: {
+          spaceBetween: 15,
+          slidesPerView: 3
+        },
+        768: {
+          spaceBetween: 15,
+          slidesPerView: 4
+        },
+        1023: {
+          spaceBetween: 20,
+          slidesPerView: 5
+        },
+        1300: {
+          spaceBetween: 30,
+          slidesPerView: 6
+        }
+      },
+      pagination: {
+        el: '.technology .swiper-pagination',
+        type: 'bullets',
+        clickable: true,
+      }
+    }
+
+    technologySliders.push(new Swiper('.technology_s' + i, options))
+  })
+
+
+
+  const clientsSliders = [],
+  clients = document.querySelectorAll('.clients .swiper')
+
+  clients.forEach(function (el, i) {
+    el.classList.add('clients_s' + i)
+
+    let options = {
+      loop: true,
+      speed: 500,
+      watchSlidesProgress: true,
+      slideActiveClass: 'active',
+      slideVisibleClass: 'visible',
+      breakpoints: {
+        0: {
+          spaceBetween: 15,
+          slidesPerView: 3
+        },
+        580: {
+          spaceBetween: 15,
+          slidesPerView: 3
+        },
+        768: {
+          spaceBetween: 15,
+          slidesPerView: 4
+        },
+        1023: {
+          spaceBetween: 20,
+          slidesPerView: 5
+        },
+        1300: {
+          spaceBetween: 30,
+          slidesPerView: 6
+        }
+      },
+      pagination: {
+        el: '.clients .swiper-pagination',
+        type: 'bullets',
+        clickable: true,
+      }
+    }
+
+    clientsSliders.push(new Swiper('.clients_s' + i, options))
+  })
+
+
   // Табы
   var locationHash = window.location.hash
 

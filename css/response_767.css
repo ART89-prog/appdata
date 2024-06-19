@@ -316,6 +316,14 @@
         margin-top: 60px;
     }
 
+    .technology .swiper-slide img {
+        width: 100%;
+    }
+    
+    .clients .swiper-slide img {
+        width: 100%;
+    }
+
 
 
 

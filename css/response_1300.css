@@ -4,6 +4,28 @@
         margin-left: 0;
     }
  
+    .technology .swiper-pagination {
+        display: flex;
+    }
+    .technology .swiper-horizontal > .swiper-pagination-bullets, 
+    .technology .swiper-pagination-bullets.swiper-pagination-horizontal, 
+    .technology .swiper-pagination-custom, 
+    .technology .swiper-pagination-fraction {
+        bottom: -34px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .clients .swiper-pagination {
+        display: flex;
+    }
+    .clients .swiper-horizontal > .swiper-pagination-bullets, 
+    .clients .swiper-pagination-bullets.swiper-pagination-horizontal, 
+    .clients .swiper-pagination-custom, 
+    .clients .swiper-pagination-fraction {
+        bottom: -34px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
 
 
 
