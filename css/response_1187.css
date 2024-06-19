@@ -29,6 +29,9 @@
         font-size: 60px;
         margin-bottom: 40px;
     }
+    .text_block h2 {
+        font-size: 46px;
+    }
     .explanation_text {
         font-size: 26px;
         margin-left: 0px;
@@ -87,6 +90,13 @@
     .post_bg2 {
         display: none;
     }
+    .text_block ul {
+        margin-bottom: 70px;
+    }
+
+
+
+
 
 
 

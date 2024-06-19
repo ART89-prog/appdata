@@ -96,6 +96,16 @@
     .safety_btn {
         width: 100%;
     }
+    .post_item-title {
+        font-size: 32px;
+        margin-bottom: 8px;
+    }
+    .post_item-text {
+        font-size: 14px;
+    }
+
+
+
 
 
    

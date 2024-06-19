@@ -1633,10 +1633,13 @@ textarea:-ms-input-placeholder {
     font-family: var(--font_family);
     font-size: 20px;
     font-weight: 300;
-    line-height: 26px;
+    line-height: 1.2;
     text-align: left;
     color: #e3e3e3;
     position: relative;
+}
+.text_block ul li + li {
+    margin-top: 25px;
 }
 .text_block ul li:before {
     position: absolute;
@@ -1672,7 +1675,7 @@ textarea:-ms-input-placeholder {
     font-family: var(--font_family);
     font-size: 20px;
     font-weight: 300;
-    line-height: 26px;
+    line-height: 1.2;
     color: #e3e3e3;
 }
 .post_images {
