@@ -1552,6 +1552,13 @@ textarea:-ms-input-placeholder {
 .contacts_item a:hover {
     color: #e3e3e3;
 }
+.ymaps-2-1-79-map {
+	filter: grayscale(1);
+	-ms-filter: grayscale(1);
+	-webkit-filter: grayscale(1);
+	-moz-filter: grayscale(1);
+	-o-filter: grayscale(1);
+}
 
 
 .callbaks {

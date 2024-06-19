@@ -272,41 +272,33 @@
 		
 
 		<script src="https://api-maps.yandex.ru/2.1.75/?load=package.standard,package.geoObjects&lang=ru-RU"></script>
-		<script>			
-			ymaps.ready(init);
-
-				function init () {
-					var myMap = new ymaps.Map('map', {
-							center: [55.724434,37.607332],
-							zoom: 14
-						})
-
-
-
-						myPlacemark1 = new ymaps.Placemark([55.724434,37.607332], {
-						}, {
-							iconLayout: 'default#image',
-							iconImageHref: 'images/marker.svg',
-							iconImageSize: [27, 27],
-						}),
-
-						myPlacemark2 = new ymaps.Placemark([55.72673,37.622145], {
-						}, {
-							iconLayout: 'default#image',
-							iconImageHref: 'images/marker.svg',
-							iconImageSize: [27, 27],				
-						});
-
-						myPlacemark3 = new ymaps.Placemark([55.729772,37.620578], {
-						}, {
-							iconLayout: 'default#image',
-							iconImageHref: 'images/marker.svg',
-							iconImageSize: [27, 27],				
-						});
-
-					myMap.geoObjects.add(myPlacemark1)
-						.add(myPlacemark2);
-				}
+		<script>
+			$(window).on('load', () => {
+				ymaps.ready(() => {
+					let myMap = new ymaps.Map('map', {
+						center: [55.7747400689659,37.60848150000002],
+						zoom: 16,
+						controls: []
+					})
+							
+					// Кастомный маркер
+					let myPlacemark = new ymaps.Placemark([55.7747400689659,37.60848150000002], {}, {
+						iconLayout : 'default#image',
+						iconImageHref : 'images/marker.svg',
+						iconImageSize : [33, 47],
+					})
+	
+					myMap.geoObjects.add(myPlacemark)
+	
+					myMap.controls.add('zoomControl', {
+						position : {
+							right : '20px',
+							top   : '20px'
+						}
+					})
+					myMap.behaviors.disable('scrollZoom')
+				})
+			})
 		</script>
 
 
