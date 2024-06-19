@@ -1578,3 +1578,132 @@ textarea:-ms-input-placeholder {
     padding: 100px 0;
     background: #242629;
 }
+
+
+.post {
+    position: relative;
+}
+.post:before {
+    position: absolute;
+    content: "";
+    width: 1182px;
+    height: 1182px;
+    left: -810px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: #2848F3;
+    opacity: 0.1;
+    filter: blur(150px);
+}
+.text_block {
+    z-index: 0;
+    position: relative;    
+}
+.text_block p {
+    max-width: 880px;
+    margin-top: 40px;
+}
+.text_block h2 {
+    font-family: Mulish;
+    font-size: 52px;
+    font-weight: 800;
+    line-height: 1.1;
+    color: #fff;
+    margin-bottom: 24px;
+}
+.text_block h3 {
+    font-family: Mulish;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 1.1;
+    color: #fff;
+    margin-bottom: 24px;
+}
+.text_block ul {
+    list-style: none;    
+    margin-bottom: 100px;
+}
+.text_block ul li {
+    padding-left: 32px;
+    font-family: Mulish;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 26px;
+    text-align: left;
+    color: #e3e3e3;
+    position: relative;
+}
+.text_block ul li:before {
+    position: absolute;
+    content: "";
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    background: #4EDEEF;
+    top: 7px;
+    left: 0;
+}
+.post_items {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin-top: 80px;
+    margin-bottom: 100px;
+}
+.post_item-title {
+    font-family: 'Mulish';
+    font-weight: 800;
+    font-size: 78px;
+    line-height: 110%;
+    text-transform: uppercase;
+    background: linear-gradient(94.27deg, #BFEEFF 5.36%, #85E2F9 16.99%, #54E1F7 71.01%, #505CD8 88.99%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    margin-bottom: 10px;
+}
+.post_item-text {
+    font-family: Mulish;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 26px;
+    color: #e3e3e3;
+}
+.post_images {
+    margin-top: 100px;
+    display: flex;
+    gap: 30px;
+}
+.post_images > * {
+    width: 48%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.post_box {
+    margin-top: 90px;
+    padding: 50px;
+    background: #1C1D22;
+    border-radius: 20px;
+}
+.page .post_box h1 {
+    margin-bottom: 15px;
+}
+.post_box p {
+    margin-top: 0;
+}
+.post_bg1 {
+    width: 140px;
+    height: 255px;
+    position: absolute;
+    left: 0px;
+    top: -80px;
+}
+.post_bg2 {
+    width: 432px;
+    height: 928px;
+    position: absolute;
+    right: 0px;
+    top: -80px;
+}
