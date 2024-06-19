@@ -420,6 +420,10 @@ header .menu .item.active>a {
     text-decoration: none;
     color: var(--text_color);
 }
+.header_logo img {
+    width: 48px;
+    height: 54px;
+}
 .header_wrap {
     margin-bottom: 146px;
     z-index: 1;
