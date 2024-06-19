@@ -280,6 +280,9 @@
     .page .block {
         padding: 38px 0 36px;
     }
+    .project_items > * {
+        width: calc(100% / 2 - 15px);
+    }
 
  
     

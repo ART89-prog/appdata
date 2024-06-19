@@ -281,6 +281,23 @@
         font-size: 14px;
     }
 
+    .project_items > * {
+        width: 100%;
+    }
+    .project_item-info {
+        padding: 20px;
+    }
+    .project_item-title {
+        font-size: 20px;
+    }
+    .project_item-text {
+        font-size: 14px;
+        margin-bottom: 0;
+    }
+    .project_item-btn {
+        display: none;
+    }
+
 
 
 
