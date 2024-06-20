@@ -37,6 +37,7 @@
         flex-wrap: wrap;
         background: #16171A;
     }
+
     header .menu.show {
         transform: translateX(0);
     }
@@ -106,6 +107,28 @@
     }
     .header_wrap {
         margin-bottom: 49px;
+    }
+    .menu_open header .menu:after {
+        position: absolute;
+        content: "";
+        width: 460px;
+        height: 460px;
+        left: -369px;
+        top: -151px;
+        background: #2848F3;
+        opacity: 0.3;
+        filter: blur(150px);
+    }
+    .menu_open header .menu:before {
+        position: absolute;
+        content: "";
+        width: 601.28px;
+        height: 595.4px;
+        right: -168px;
+        top: 280px;
+        background: linear-gradient(180deg, #164A6B 0%, #000000 100%);
+        filter: blur(150px);
+        transform: rotate(-26.1deg);
     }
     .header_title {
         font-size: 54px;
