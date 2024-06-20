@@ -106,7 +106,7 @@ input[type=number] {
     Global styles
 -------------------*/
 :root {
-    --bg: #16171A;
+    --bg: #010a13;
     --scroll_width: 17px;
     --text_color: #fff;
     --font_size: 15px;
@@ -642,7 +642,8 @@ p.mb0 {
     padding: 241px 0 180px;
     position: relative;
 }
-.advantages_title {
+.advantages_title,
+.projects_title {
     font-family: var(--font_family);
     font-size: 68px;
     font-weight: 800;
@@ -718,22 +719,6 @@ p.mb0 {
 
 .projects {
     padding: 147px 0 200px;
-}
-.projects_title {
-    text-align: center;
-    margin-bottom: 50px;
-    font-family: var(--font_family);
-    font-style: normal;
-    font-weight: 800;
-    font-size: 118px;
-    line-height: 110%;
-    text-transform: uppercase;
-    background: linear-gradient(94.27deg, #BFEEFF 5.36%, #85E2F9 16.99%, #54E1F7 71.01%, #505CD8 88.99%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    text-fill-color: transparent;
-    display: inline-block;
 }
 .projects_item-btn {
     opacity: 0;
@@ -928,7 +913,7 @@ p.mb0 {
 
 .callback {
     padding: 103px 0 98px;
-    background: #242629;
+    background: #010a13;
     z-index: 5;
     position: relative;
 }
@@ -1464,6 +1449,7 @@ textarea:-ms-input-placeholder {
     background: var(--text_color);
     position: relative;
     transition: all .4s;
+    display: block;
 }
 .projects_item-img img {
     width: 100%;
@@ -1913,7 +1899,7 @@ textarea:-ms-input-placeholder {
     position: absolute;
     width: 726px;
     height: 671px;
-    left: -60px;
+    left: -90px;
     top: 50px;
 }
 .safety_img img {

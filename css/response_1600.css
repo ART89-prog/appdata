@@ -18,6 +18,13 @@
         bottom: -26px;
         left: -50px;
     }
+    .safety_img {
+        position: absolute;
+        width: 524px;
+        height: 484px;
+        left: -60px;
+        top: 80px;
+    }
 
 
 
