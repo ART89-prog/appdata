@@ -52,8 +52,7 @@
         width: calc(100% / 2 - 15px);
     }
     .callback_img {
-        width: 760px;
-        height: 474px;
+        right: 0;
     }
     .stage_items {
         column-gap: 44px;

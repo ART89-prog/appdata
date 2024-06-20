@@ -201,11 +201,11 @@
     .callback_img {
         position: relative;
         bottom: -98px;
-        width: 730px;
-        height: 454px;
+        width: 690px;
+        height: 521px;
         right: auto;
         left: auto;
-        margin-top: -200px;
+        margin: -100px auto 0;
     }
     .callback_info {
         max-width: 100%;
@@ -353,7 +353,10 @@
     .privileges_item-title {
         font-size: 24px;
     }
-    .privileges_item-text {
+    .privileges_item-text,
+    .first-section_column p,
+    .first-section_column ul li,
+    .first-section_left p {
         font-size: 18px;
     }
     .safety_info {

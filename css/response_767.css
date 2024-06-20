@@ -341,7 +341,10 @@
         font-size: 20px;
         margin-bottom: 10px;
     }
-    .privileges_item-text {
+    .privileges_item-text,
+    .first-section_column p,
+    .first-section_column ul li,
+    .first-section_left p {
         font-size: 14px;
     }
     .privileges_items > * {
@@ -384,6 +387,7 @@
         font-size: 16px;
     }
  
+
 
 
 

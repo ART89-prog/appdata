@@ -103,6 +103,15 @@
     .post_item-text {
         font-size: 14px;
     }
+    .tabs button {
+        padding: 5px 20px;
+        font-size: 12px;
+        line-height: 1;
+    }
+    .tabs {
+        gap: 8px;
+        margin-bottom: 0;
+    }
 
 
 
