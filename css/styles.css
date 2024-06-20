@@ -1872,6 +1872,8 @@ textarea:-ms-input-placeholder {
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
+    z-index: 5;
+    position: relative;
 }
 .privileges_items > * {
     width: calc(100%/3 - 20px);
