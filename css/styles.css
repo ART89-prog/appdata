@@ -1581,6 +1581,8 @@ textarea:-ms-input-placeholder {
 .callbaks {
     padding: 100px 0;
     background: #242629;
+    z-index: 5;
+    position: relative;
 }
 
 
