@@ -747,9 +747,8 @@ p.mb0 {
     text-decoration: none;
     background: var(--text_color);
     position: relative;
-    transition: all .4s;
 }
-.projects_item:hover::before {
+.projects_item::before {
     background: rgba(255, 255, 255, 0.81);
     position: absolute;
     content: "";
@@ -758,9 +757,16 @@ p.mb0 {
     top: 0;
     left: 0;
     border-radius: 10px;
+    transition: all 0.5s;
+    opacity: 0;
+}
+.projects_item:hover::before {
+    opacity: 1;
+    transition: all 0.5s;
 }
 .projects_item:hover .projects_item-btn {
     opacity: 1;
+    transition: all 0.5s;
 }
 .projects_item-img img {
     width: 100%;
