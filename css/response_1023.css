@@ -120,7 +120,7 @@
         margin-bottom: 43px;
     }
     .header_img1 {
-        right: -215px;
+        right: -120px;
     }
     .header_img2 {
         left: -165px;
@@ -166,7 +166,8 @@
     }
     .explanation_img {
         position: relative;
-        margin-top: -100px;
+        margin: -100px auto 0;
+        right: 0;
     }
     .explanation_info {
         max-width: 100%;
