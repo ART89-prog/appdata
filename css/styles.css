@@ -382,6 +382,9 @@ header .menu .item {
     position: relative;
 }
 
+header .menu .item:first-child {
+    display: none;
+}
 header .menu .item>a {
     font-family: var(--font_family);
     font-size: 18px;

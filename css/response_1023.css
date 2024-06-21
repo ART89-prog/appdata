@@ -50,6 +50,9 @@
         width: 100%;
         margin-right: 0;
     }
+    header .menu .item:first-child {
+        display: block;
+    }
     header .menu .item + .item {
         margin-left: 0;
     }
