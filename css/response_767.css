@@ -14,6 +14,7 @@
         display: flex;
         flex-direction: column;
         margin-bottom: 18px;
+        height: 100%;
     }
     .benifits_item-icon {
         width: 47px;
@@ -69,7 +70,13 @@
     .benifits .swiper-horizontal > .swiper-pagination-bullets, 
     .benifits .swiper-pagination-bullets.swiper-pagination-horizontal, 
     .benifits .swiper-pagination-custom, .swiper-pagination-fraction {
-        bottom: -10px;
+        bottom: -33px;
+    }
+    .benifits .swiper-wrapper {
+        align-items: stretch;
+    }
+    .benifits .swiper-slide {
+        height: auto;
     }
     .header_img1 {
         right: -195px;

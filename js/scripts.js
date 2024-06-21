@@ -173,7 +173,7 @@ $(() => {
           spaceBetween: 0,
           slidesPerView: 1
         },
-        710: {
+        600: {
           spaceBetween: 15,
           slidesPerView: 2
         },
