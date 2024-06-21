@@ -1530,8 +1530,8 @@ textarea:-ms-input-placeholder {
 .contacts_wrap {
     display: flex;
     align-items: center;
-    background: #1C1D22;
-    border: 1px solid #484848;
+    background: #010a13;
+    border: 1px solid #010a13;
     border-radius: 20px;
 }
 .contacts_info {
@@ -1579,7 +1579,7 @@ textarea:-ms-input-placeholder {
 
 .callbaks {
     padding: 100px 0;
-    background: #242629;
+    background: #010a13;
     z-index: 5;
     position: relative;
 }
